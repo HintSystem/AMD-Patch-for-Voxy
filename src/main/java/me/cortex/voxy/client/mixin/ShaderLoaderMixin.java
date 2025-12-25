@@ -1,6 +1,7 @@
 package me.cortex.voxy.client.mixin;
 
 import me.cortex.voxy.client.core.gl.shader.ShaderLoader;
+
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

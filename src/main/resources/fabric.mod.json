@@ -14,25 +14,16 @@
 	"license": "CC0-1.0",
 	"icon": "assets/amd-patch-for-voxy/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.amdfix.AMDPatchForVoxy"
-		],
-		"client": [
-			"com.amdfix.AMDPatchForVoxyClient"
-		]
-	},
+	"entrypoints": {},
 	"mixins": [
-		"amd-patch-for-voxy.mixins.json",
 		{
 			"config": "amd-patch-for-voxy.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.18.3",
-		"minecraft": "~1.21.11",
-		"java": ">=21",
-		"fabric-api": "*"
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21"
 	}
 }
